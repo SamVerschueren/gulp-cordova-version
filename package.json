@@ -1,0 +1,29 @@
+{
+  "name": "gulp-cordova-version",
+  "version": "0.0.1",
+  "description": "Sets the version in the config.xml of the cordova project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamVerschueren/gulp-cordova-version.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpjs",
+    "cordova",
+    "version",
+    "config"
+  ],
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamVerschueren/gulp-cordova-version/issues"
+  },
+  "homepage": "https://github.com/SamVerschueren/gulp-cordova-version"
+}
