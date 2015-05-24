@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/SamVerschueren/gulp-cordova-version/issues"
   },
-  "homepage": "https://github.com/SamVerschueren/gulp-cordova-version"
+  "homepage": "https://github.com/SamVerschueren/gulp-cordova-version",
+  "dependencies": {
+    "cordova-config": "^0.1.0",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  }
 }
