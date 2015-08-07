@@ -38,7 +38,7 @@ gulp.task('build', function() {
 
 ## API
 
-### version(version, versionCodes)
+### version(version, [versionCodes])
 
 #### version
 
