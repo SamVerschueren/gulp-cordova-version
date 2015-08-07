@@ -14,9 +14,12 @@ var path = require('path'),
     Config = require('cordova-config');
 
 // export the module
-module.exports = function(version) {
+module.exports = function(version, versionCodes) {
 
     var project;
+    
+    // Make it a default object if it is not provided
+    versionCodes = versionCodes || {};
 
     return through.obj(function(file, enc, cb) {
         project = file;
@@ -32,6 +35,16 @@ module.exports = function(version) {
 
 			// Sets the version
             config.setVersion(version);
+            
+            if(versionCodes.androidVersionCode) {
+                // Set the android version code if provided
+                config.setAndroidVersionCode(versionCodes.androidVersionCode);
+            }
+            
+            if(versionCodes.iosBundleVersion) {
+                // Set the android version code if provided
+                config.setIOSBundleVersion(versionCodes.iosBundleVersion);
+            }
 
             // Write the config file
             config.write(function() {
