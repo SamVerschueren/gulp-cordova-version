@@ -1,5 +1,8 @@
 # gulp-cordova-version
 
+[![Build Status](https://travis-ci.org/SamVerschueren/gulp-cordova-version.svg?branch=master)](https://travis-ci.org/SamVerschueren/gulp-cordova-version)
+[![Coverage Status](https://coveralls.io/repos/SamVerschueren/gulp-cordova-version/badge.svg?branch=master&service=github)](https://coveralls.io/github/SamVerschueren/gulp-cordova-version?branch=master)
+
 > Sets the version in the config.xml of the cordova project.
 
 ## Installation
@@ -42,7 +45,7 @@ gulp.task('build', function() {
 
 #### version
 
-*Required*  
+*Required*
 Type: `string`
 
 The version of the application in the format `x.y.z`.
