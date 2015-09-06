@@ -1,6 +1,6 @@
 {
   "name": "gulp-cordova-version",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Sets the version in the config.xml of the cordova project.",
   "main": "index.js",
   "scripts": {
