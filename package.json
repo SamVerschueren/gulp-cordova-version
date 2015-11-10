@@ -1,6 +1,6 @@
 {
   "name": "gulp-cordova-version",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Sets the version in the config.xml of the cordova project.",
   "main": "index.js",
   "scripts": {
@@ -31,9 +31,9 @@
     "index.js"
   ],
   "dependencies": {
-    "cordova-config": "^0.6.1",
-    "gulp-util": "^3.0.4",
-    "through2": "^0.6.5"
+    "cordova-config": "^0.6.3",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
